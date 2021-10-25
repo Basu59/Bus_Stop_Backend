@@ -51,10 +51,9 @@ public class StopContoller {
 			Stop st= stopRepository.findById(id)
 					.orElseThrow(() -> new ResourceNotFoundException("ID not exist with id :" + id));
 			
-			st.setBusno(stopdetails.getBusno());		
-			st.setOrigin(stopdetails.getOrigin());		
-			st.setDestination(stopdetails.getDestination());		
-
+			st.setBusstops(stopdetails.getBusstops());		
+			st.setRouteno(stopdetails.getRouteno());		
+			
 		       Stop updatedstop  =  stopRepository.save(st);
 		        return ResponseEntity.ok(updatedstop);
 	

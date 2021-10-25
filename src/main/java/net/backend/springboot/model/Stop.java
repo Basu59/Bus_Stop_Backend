@@ -21,12 +21,11 @@ public class Stop {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	@Column(name="busno")
-	private String busno;
+	@Column(name="routeno")
+	private String routeno;
 		
-	@Column(name="origin")
-	private String origin;
+	@Column(name="busstops")
+	private String busstops;
 	
-	@Column(name="destination")
-	private String destination;
+	
 }
