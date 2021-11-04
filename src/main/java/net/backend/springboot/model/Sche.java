@@ -29,7 +29,7 @@ public class Sche {
 	private LocalTime aritime;
 	
 	@Column(name="Deptime")
-	private String deptime;
+	private LocalTime deptime;
 	
 		
 

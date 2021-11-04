@@ -1,3 +1,4 @@
+
 package net.backend.springboot.model;
 
 import javax.persistence.Column;
