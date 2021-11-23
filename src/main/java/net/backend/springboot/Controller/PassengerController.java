@@ -19,9 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import net.backend.springboot.Repository.PassengerRepository;
 import net.backend.springboot.ResourceNotFoundException.ResourceNotFoundException;
 import net.backend.springboot.model.Passenger;
-
-
-
+//BusDetail
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/bus")
