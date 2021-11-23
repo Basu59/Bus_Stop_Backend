@@ -3,9 +3,10 @@ package net.backend.springboot.Repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import net.backend.springboot.model.Stop;
+import net.backend.springboot.model.VechileReg;
+
 
 @Repository
-public interface StopRepository extends JpaRepository<Stop,Long>{
+public interface VechileRegRepository extends JpaRepository<VechileReg, Long> {
 
 }
